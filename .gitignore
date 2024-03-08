@@ -1,42 +1,46 @@
+# Ignore everything
+*
 
-laborator2/problema 1/.vs/problema 1/FileContentIndex/4726d8c2-9a01-4dca-882e-5d165e603211.vsidx
-laborator2/problema 1/.vs/problema 1/FileContentIndex/5cd27586-8643-44c3-a1cc-c2273409e4f0.vsidx
-laborator2/problema 1/.vs/problema 1/FileContentIndex/8a5b954f-6d09-4711-84a5-e91bd19b5708.vsidx
-laborator2/problema 1/.vs/problema 1/FileContentIndex/f124a28f-f2cc-4d08-a634-64fc68d4802b.vsidx
-laborator2/problema 1/.vs/problema 1/v17/.suo
-laborator2/problema 1/.vs/problema 1/v17/Browse.VC.db
-laborator2/problema 1/.vs/problema 1/v17/ipch/AutoPCH/46be781aebf2595b/MAIN.ipch
-laborator2/problema 1/.vs/problema 1/v17/ipch/AutoPCH/5ea42047f143f40/NUMBERLIST.ipch
-laborator2/problema 1/.vs/problema 1/v17/ipch/AutoPCH/c2d27b9cb7c76e9b/NUMBERLIST.ipch
-laborator2/problema 1/.vs/problema 1/v17/Solution.VC.db
-laborator2/problema 1/problema 1.sln
-laborator2/problema 1/problema 1/problema 1.vcxproj
-laborator2/problema 1/problema 1/problema 1.vcxproj.filters
-laborator2/problema 1/problema 1/problema 1.vcxproj.user
-laborator2/problema 1/problema 1/x64/Debug/main.obj
-laborator2/problema 1/problema 1/x64/Debug/NumberList.obj
-laborator2/problema 1/problema 1/x64/Debug/problema 1.exe.recipe
-laborator2/problema 1/problema 1/x64/Debug/problema 1.ilk
-laborator2/problema 1/problema 1/x64/Debug/problema 1.log
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/CL.command.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/Cl.items.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/CL.read.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/CL.write.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/link.command.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/link.read.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/link.write.1.tlog
-laborator2/problema 1/problema 1/x64/Debug/problema 1.tlog/problema 1.lastbuildstate
-laborator2/problema 1/problema 1/x64/Debug/vc143.idb
-laborator2/problema 1/problema 1/x64/Debug/vc143.pdb
-laborator2/problema 1/x64/Debug/problema 1.exe
-laborator2/problema 1/x64/Debug/problema 1.pdb
-laborator2/problema 2/.vs/problema 2/FileContentIndex/6b9263fd-5945-4137-a3ed-84900a2afdd8.vsidx
-laborator2/problema 2/.vs/problema 2/FileContentIndex/d2cbb4f6-d177-400f-9ecb-91d4f37e39a6.vsidx
-laborator2/problema 2/.vs/problema 2/FileContentIndex/f190d755-2705-419f-a59b-35facd2ddc43.vsidx
-laborator2/problema 2/.vs/problema 2/v17/.suo
-laborator2/problema 2/.vs/problema 2/v17/Browse.VC.db
-laborator2/problema 2/.vs/problema 2/v17/ipch/AutoPCH/1ea8355e2395fda0/STUDENT.ipch
-laborator2/problema 2/problema 2.sln
-laborator2/problema 2/problema 2/problema 2.vcxproj
-laborator2/problema 2/problema 2/problema 2.vcxproj.filters
-laborator2/problema 2/problema 2/problema 2.vcxproj.user
+# Allow specific file types and folders
+!*/
+!*.in
+!*.out
+!*.txt
+!*.cpp
+!*.h
+
+
+# Ignore other Visual Studio files and folders
+.vs/
+x64/
+*.suo
+*.user
+*.aps
+*.pdb
+*.idb
+*.obj
+*.pch
+*.dll
+*.exe
+*.manifest
+*_i.c
+*_p.c
+*.ilk
+*.ncb
+*.sdf
+*.suo
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.lib
+*.zip
+*.log
+*.ncrunch*
+*.log.*
+*.pidb
+*.log
+*.sdf
+*.opensdf
+*.docstates
