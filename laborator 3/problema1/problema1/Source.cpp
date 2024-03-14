@@ -15,6 +15,6 @@ int main()
 	printf("%f\n", a.Mul(2.0, 3.0));
 	printf("%f\n", a.Mul(5.0, 2.0));
 	printf("%d\n", a.Add(3, 11, 9,8));
-	printf("%s\n", a.Add("7777","978"));
+	printf("%s\n", a.Add("7887","978"));
 	return 0;
 }

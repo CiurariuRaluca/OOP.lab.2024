@@ -53,8 +53,8 @@ char* Math::Add(const char* sir1, const char* sir2)
 	if (sir1 == nullptr || sir2 == nullptr)
 			return nullptr;
 	
-	int maxim = strlen(sir1);
-	int lung = strlen(sir2);
+	int maxim = strlen(sir1)-1;
+	int lung = strlen(sir2)-1;
 
 	if (lung > maxim)
 		maxim = lung;
@@ -96,14 +96,14 @@ char* Math::Add(const char* sir1, const char* sir2)
 	while (lung2 >= 0)
 	{
 
-		suma = sir1[lung1] - '0' + carry;
+		suma = sir2[lung2] - '0' + carry;
 
 		carry = suma / 10;
 		suma = suma % 10;
 
 		rez[maxim--] = suma + '0';
 
-		lung1--;
+		lung2--;
 	}
 	return rez;
 }
