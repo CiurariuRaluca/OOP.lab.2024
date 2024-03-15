@@ -59,11 +59,11 @@ char* Math::Add(const char* sir1, const char* sir2)
 	if (lung > maxim)
 		maxim = lung;
 
-	for(int j=0;j<=maxim;j++)
-		rez[j]='a';
-
 	char* rez = new char[maxim+1];
 	rez[maxim+1] = '\0';
+	
+	for(int j=0;j<=maxim;j++)
+		rez[j]='a';
 
 
 	int lung2 = strlen(sir2) - 1;
