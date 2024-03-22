@@ -159,5 +159,6 @@ void Sort::Print()
 {
 	for (int i = 0; i < this->count; i++)
 		printf("%d ", v[i]);
+
 	printf("\n");
 }
