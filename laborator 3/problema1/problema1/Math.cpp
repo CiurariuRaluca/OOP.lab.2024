@@ -111,6 +111,6 @@ char* Math::Add(const char* sir1, const char* sir2)
     }
     rez[0] = carry + '0';
 
-    if (rez[0] == 'a') strcpy(rez, rez + 1);
+    if (rez[0] == '0') strcpy(rez, rez + 1);
     return rez;
 }
